@@ -2,9 +2,10 @@ package com.islam;
 
 public class Main {
     public static void main(String[] args) {
-        String str = "(1 + 2)";
-        Expression exp = new Expression();
-        var result = exp.isBalanced(str);
-        System.out.println(result);
+        String str  = "an apple pie";
+        var charFinder = new CharFinder();
+        char fnrc = charFinder.findFirstNonRepeatingChar(str);
+        System.out.println(fnrc);
+
     }
 }
